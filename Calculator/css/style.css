@@ -1,0 +1,100 @@
+body{
+    
+    line-height: 0.5;
+    background: linear-gradient(to left, #7808f0,#06bdf5);
+}
+
+.calci{
+ width: 500px;
+ padding-top: 100px;
+ padding-bottom: 100px;
+ position: absolute;
+ top: 50%;
+ left: 70%;
+ transform: translate(-50%, -50%);
+ transition: 0.25px;
+ text-align: center;
+
+}
+
+#display{
+ border: none;
+ background: white; 
+ border-radius: 30px;
+ width: 245px;
+ font-size: 20px;
+ font-family: sans-serif;
+ font-weight: 300;
+ height:60px;
+ margin: auto;
+ border: 2px solid white;
+ color: black;
+}
+
+.btnDesign{
+ width: 55px;
+ height: 55px;
+ padding-top: -1;
+ border: none;
+ background: white;
+ font-family: sans-serif;
+ font-size: 20px;
+ font-weight: 300;
+ border-radius: 30px;
+ margin: 1.5;
+}
+
+.operatorDesign{
+width: 55px;
+height: 55px;
+padding-top: -1;
+border: none;
+font-family: sans-serif;
+font-size: 20px;
+background: white;
+font-weight: 300;
+border-radius: 30px;
+margin: 1.5;
+transition: 0.25px;
+cursor: pointer;
+
+}
+
+.operatorDesign:hover{
+background: rgb(11, 236, 217);
+}
+
+.btnDesign:hover{
+    background: rgb(11, 236, 217);
+    }
+
+h1{
+    color: white;
+    margin-top: 280px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-size: 60px;
+    
+}
+
+h2{
+    color: white;
+    margin-top: -20px;
+
+    margin-left: 520px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
